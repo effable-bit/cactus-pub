@@ -30,7 +30,7 @@ while True:
   k = 1
   for driver in drivers:
 
-  for j in range(driver.tft_count):
-    driver.showImg(j, cacti[k])
-    k = k + 1
+    for j in range(driver.tft_count):
+      driver.showImg(j, cacti[k])
+      k = k + 1
   
