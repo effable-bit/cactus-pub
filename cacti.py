@@ -22,12 +22,15 @@ for driver in drivers:
     driver.showImg(j, cacti[k])
     k = k + 1
 
-k = 1
-for driver in drivers:
+
+
+while True:
+  time.sleep(10)
+
+  k = 1
+  for driver in drivers:
 
   for j in range(driver.tft_count):
     driver.showImg(j, cacti[k])
     k = k + 1
-
-while True:
-  time.sleep(1000000);
+  
